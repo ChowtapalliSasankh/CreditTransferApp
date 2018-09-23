@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/custnm"
+        android:textStyle="italic"
+        android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Current Balance
+            "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          Rs:"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textStyle="normal"
+            android:textSize="70sp"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:id="@+id/amtxt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transfer_funds"
+        android:textSize="15sp"
+        android:id="@+id/bt1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_transactions"
+        android:textSize="15sp"
+        android:id="@+id/bt2"
+        />
+</LinearLayout>
